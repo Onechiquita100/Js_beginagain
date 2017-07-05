@@ -128,20 +128,20 @@ let f = (NaN == NaN);
 // Use the variable `thirsty` as part of your conditional expression.
 // A:
 let thirsty = true;
-if(person=thirsty)
+if(thirsty)
 {
   console.log("I'm parched!");
 
-} else (person!==thirsty){
+} else {
   console.log("I've had enough to drink.");
 }
 
 // For questions 21 - 29 list which statement will be logged.
 
 // 21.
-let x;
+let xx;
 
-if {
+if (xx){
 	console.log("True!");
 } else {
 	console.log("False!");
@@ -159,9 +159,9 @@ if(""){
 
 // 23.
 // this expression will set x to NaN
-let x = 1 * undefined;
+let xxx = 1 * undefined;
 
-if(x){
+if(xxx){
 	console.log("True!");
 } else {
 	console.log("False!");
@@ -211,8 +211,7 @@ if({name: "Yehuda Katz"}){
 } else {
 	console.log("False!");
 }
-// A:
-False
+// A:False
 
 // 29.
 if(new Date()){
